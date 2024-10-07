@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff5e6;
+    color: #333;
+    text-align: center;
+    margin: 50px;
+}
+
+h1 {
+    color: #ff6600;
+}
+
+input[type="date"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ff9933;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff8533;
+}
+
+#error {
+    color: #ff3300;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none; /* Ошибка скрыта по умолчанию */
+}
+
+#result {
+    font-size: 18px;
+    margin-top: 15px;
+    color: #333;
+}
